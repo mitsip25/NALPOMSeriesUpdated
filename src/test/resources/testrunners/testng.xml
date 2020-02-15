@@ -13,7 +13,7 @@
 	</listeners> -->
 
 	<test name="Hub Spot Functional Regression Test">
-		
+		<parameter name="browser" value="" />
 		<classes>
 
 			<class name="com.qa.hubspot.testcases.LoginPageTest" />

@@ -16,7 +16,7 @@
 
 	</listeners> -->
 	<test name="Hubspot Functional Regression Test">
-
+		<parameter name="browser" value="" />
 <!-- 		<groups>
 			<run>
 				<include name="sanity" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.981" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.787" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -13,13 +13,13 @@
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="maven.conf" value="C:\SeleniumTraining\apache-maven-3.6.0\bin\../conf"/>
-    <property name="suiteXmlFile" value="testng_parallel.xml"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=testng_parallel.xml"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=testng.xml"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\SeleniumTraining\apache-maven-3.6.0\bin\.."/>
     <property name="sun.cpu.endian" value="little"/>
@@ -65,18 +65,35 @@
     <property name="library.jansi.path" value="C:\SeleniumTraining\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="2.342"/>
-  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="1.948"/>
-  <testcase name="verifyHomePageTitleTest" classname="com.qa.hubspot.testcases.HomePageTest" time="0.02"/>
-  <testcase name="verifyHomePageTitleTest" classname="com.qa.hubspot.testcases.HomePageTest" time="0.051"/>
-  <testcase name="verifySignUpLink" classname="com.qa.hubspot.testcases.LoginPageTest" time="0.099"/>
-  <testcase name="verifySignUpLink" classname="com.qa.hubspot.testcases.LoginPageTest" time="0.12"/>
-  <testcase name="verifyHomePageHeaderTest" classname="com.qa.hubspot.testcases.HomePageTest" time="0.044"/>
-  <testcase name="verifyHomePageHeaderTest" classname="com.qa.hubspot.testcases.HomePageTest" time="0.099"/>
-  <testcase name="verifyDontHaveAnAccountTextTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="0.05"/>
-  <testcase name="verifyDontHaveAnAccountTextTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="0.027"/>
-  <testcase name="verifyLoggedInUserNameTest" classname="com.qa.hubspot.testcases.HomePageTest" time="0.035"/>
-  <testcase name="verifyLoggedInUserNameTest" classname="com.qa.hubspot.testcases.HomePageTest" time="0.034"/>
-  <testcase name="loginTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="1.558"/>
-  <testcase name="loginTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="3.255"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="20.835">
+    <failure message="Expected condition failed: waiting for title to be &quot;HubSpot Login123&quot;. Current title: &quot;HubSpot Login&quot; (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SHREE-PC&apos;, ip: &apos;192.168.1.29&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.100, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f796c752147ce365e93b58b84f8ab10d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "HubSpot Login123". Current title: "HubSpot Login" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHREE-PC', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.100, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f796c752147ce365e93b58b84f8ab10d
+	at com.qa.hubspot.testcases.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:74)
+</failure>
+    <system-out><![CDATA[I am in onStart method Hub Spot Functional Regression Test
+browser name is: chrome
+I am in onTestStart method verifyLoginPageTitleTest start
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 16099
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Feb 15, 2020 12:18:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581797918.631][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581797919.002][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUpLink" classname="com.qa.hubspot.testcases.LoginPageTest" time="0.085"/>
+  <testcase name="verifyDontHaveAnAccountTextTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="0.049"/>
+  <testcase name="loginTest" classname="com.qa.hubspot.testcases.LoginPageTest" time="3.252"/>
 </testsuite>

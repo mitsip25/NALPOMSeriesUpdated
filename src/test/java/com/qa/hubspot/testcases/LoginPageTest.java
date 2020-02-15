@@ -52,7 +52,7 @@ public class LoginPageTest {
 		//for parallel execution
 		String browserName=null;
 		
-		if(browser.equals(null)){
+		if(browser.equals(null) || browser.equals("") || browser.isEmpty()){
 			browserName = prop.getProperty("browser");
 		}else{
 			browserName=browser;

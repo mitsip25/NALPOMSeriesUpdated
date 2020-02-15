@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SHREE-PC",
+    "children" : [ {
+      "name" : "9448@SHREE-PC.main(1)",
+      "children" : [ {
+        "name" : "verifySignUpLink",
+        "uid" : "800f97128894bc51",
+        "parentUid" : "6e7127d2b2045ee0f40c4af5308742dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581628342699,
+          "stop" : 1581628342764,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyLoginPageTitleTest",
+        "uid" : "d94fe7a03942c6eb",
+        "parentUid" : "6e7127d2b2045ee0f40c4af5308742dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581628321832,
+          "stop" : 1581628342694,
+          "duration" : 20862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login_InvalidTestCases",
+        "uid" : "61ef5a1d697eda1f",
+        "parentUid" : "6e7127d2b2045ee0f40c4af5308742dc",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1581628316951,
+          "stop" : 1581628316952,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "6e6bbbbb0e104c39",
+        "parentUid" : "6e7127d2b2045ee0f40c4af5308742dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581628342802,
+          "stop" : 1581628345350,
+          "duration" : 2548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDontHaveAnAccountTextTest",
+        "uid" : "85ad87d5d5274d1f",
+        "parentUid" : "6e7127d2b2045ee0f40c4af5308742dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581628342769,
+          "stop" : 1581628342798,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e7127d2b2045ee0f40c4af5308742dc"
+    } ],
+    "uid" : "ab1024afbe1e31dc0a60c2d6b7927b88"
+  } ]
+}

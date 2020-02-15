@@ -1,0 +1,108 @@
+{
+  "uid" : "85ad87d5d5274d1f",
+  "name" : "verifyDontHaveAnAccountTextTest",
+  "fullName" : "com.qa.hubspot.testcases.LoginPageTest.verifyDontHaveAnAccountTextTest",
+  "historyId" : "b6fcb41eb651a0b8776531466521401e",
+  "time" : {
+    "start" : 1581628342769,
+    "stop" : 1581628342798,
+    "duration" : 29
+  },
+  "description" : "Verify DontHaveAnAccount Text ",
+  "descriptionHtml" : "<p>Verify DontHaveAnAccount Text</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1581628317031,
+      "stop" : 1581628321801,
+      "duration" : 4770
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1581628345352,
+      "stop" : 1581628345993,
+      "duration" : 641
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.hubspot.testcases.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.hubspot.testcases.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyDontHaveAnAccountTextTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HubSpot Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Hubspot Functional Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.hubspot.testcases.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "SHREE-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9448@SHREE-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: User wants to Create login page features"
+  }, {
+    "name" : "epic",
+    "value" : "Epic - 101 : Create login page features"
+  }, {
+    "name" : "feature",
+    "value" : "US - 501 : Create test for login page on hubspot"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85ad87d5d5274d1f.json",
+  "parameterValues" : [ ]
+}

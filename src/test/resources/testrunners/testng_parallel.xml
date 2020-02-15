@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HubSpot Regression suite" thread-count="2" parallel="tests"> <!--step:3: we have to give thread-count at suit or test or class level and parallel="tests"  -->
+
+	<listeners>
+
+
+		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+
+	
+
+	</listeners>
+
+	<test name="Hubspot Functional Regression Test- FF" thread-count="3" parallel="classes"> <!--step:1: create test block as many browser you want to run as this is 1st block for FF  -->
+		<parameter name="browser" value="firefox" /><!--step 2: we have to specify parameter  -->
+		<classes>
+
+	
+			<class name="com.qa.hubspot.testcases.LoginPageTest" />
+			<class name="com.qa.hubspot.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Hubspot Functional Regression Test- chrome" thread-count="3" parallel= "classes"><!--step:1: create test block as many browser you want to run as this is 2nd block for chrome -->
+		<parameter name="browser" value="chrome"/><!--step 2: we have to specify parameter  -->
+		<classes>
+
+			
+			<class name="com.qa.hubspot.testcases.LoginPageTest" />
+			<class name="com.qa.hubspot.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+</suite> 

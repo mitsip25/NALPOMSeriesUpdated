@@ -1,0 +1,98 @@
+{
+  "d38182e0fc7a63bbe8c7e84c7bce4d7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d94fe7a03942c6eb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for title to be \"HubSpot Login123\". Current title: \"HubSpot Login\" (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SHREE-PC', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.100, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\\Users\\patel\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: de8c765034e06bbd0406e56f3f0d7618",
+      "time" : {
+        "start" : 1581628321832,
+        "stop" : 1581628342694,
+        "duration" : 20862
+      }
+    } ]
+  },
+  "b87c9d34d352304543fc534cb7f667db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e6bbbbb0e104c39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581628342802,
+        "stop" : 1581628345350,
+        "duration" : 2548
+      }
+    } ]
+  },
+  "7ae776986a5de05f3eb47c58cf9042cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61ef5a1d697eda1f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581628316951,
+        "stop" : 1581628316952,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b6fcb41eb651a0b8776531466521401e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85ad87d5d5274d1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581628342769,
+        "stop" : 1581628342798,
+        "duration" : 29
+      }
+    } ]
+  },
+  "204a5bba9bc6324d6d9648ce1bad0db0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "800f97128894bc51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581628342699,
+        "stop" : 1581628342764,
+        "duration" : 65
+      }
+    } ]
+  }
+}

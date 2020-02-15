@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.qa.hubspot.testcases.LoginPageTest",
+    "children" : [ {
+      "name" : "login_InvalidTestCases",
+      "uid" : "61ef5a1d697eda1f",
+      "parentUid" : "22a1ae4dfdfc94cd06cc158ddad79cf4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581628316951,
+        "stop" : 1581628316952,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyLoginPageTitleTest",
+      "uid" : "d94fe7a03942c6eb",
+      "parentUid" : "22a1ae4dfdfc94cd06cc158ddad79cf4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581628321832,
+        "stop" : 1581628342694,
+        "duration" : 20862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifySignUpLink",
+      "uid" : "800f97128894bc51",
+      "parentUid" : "22a1ae4dfdfc94cd06cc158ddad79cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581628342699,
+        "stop" : 1581628342764,
+        "duration" : 65
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyDontHaveAnAccountTextTest",
+      "uid" : "85ad87d5d5274d1f",
+      "parentUid" : "22a1ae4dfdfc94cd06cc158ddad79cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581628342769,
+        "stop" : 1581628342798,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginTest",
+      "uid" : "6e6bbbbb0e104c39",
+      "parentUid" : "22a1ae4dfdfc94cd06cc158ddad79cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581628342802,
+        "stop" : 1581628345350,
+        "duration" : 2548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.qa.hubspot.testcases.LoginPageTest"
+  } ]
+}

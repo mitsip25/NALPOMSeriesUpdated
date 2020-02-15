@@ -1,0 +1,51 @@
+[ {
+  "uid" : "85ad87d5d5274d1f",
+  "name" : "verifyDontHaveAnAccountTextTest",
+  "time" : {
+    "start" : 1581628342769,
+    "stop" : 1581628342798,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d94fe7a03942c6eb",
+  "name" : "verifyLoginPageTitleTest",
+  "time" : {
+    "start" : 1581628321832,
+    "stop" : 1581628342694,
+    "duration" : 20862
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "61ef5a1d697eda1f",
+  "name" : "login_InvalidTestCases",
+  "time" : {
+    "start" : 1581628316951,
+    "stop" : 1581628316952,
+    "duration" : 1
+  },
+  "status" : "unknown",
+  "severity" : "blocker"
+}, {
+  "uid" : "800f97128894bc51",
+  "name" : "verifySignUpLink",
+  "time" : {
+    "start" : 1581628342699,
+    "stop" : 1581628342764,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e6bbbbb0e104c39",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1581628342802,
+    "stop" : 1581628345350,
+    "duration" : 2548
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

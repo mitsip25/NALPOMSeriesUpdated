@@ -11,7 +11,7 @@ public class AppConstantValues {
 
 	//why final: so that no one can change
 	//why static: so that i can call it directly becoz these are the common things
-	public final static String LOGIN_PAGE_TITLE= "HubSpot Login123";
+	public final static String LOGIN_PAGE_TITLE= "HubSpot Login";
 	public final static String HOME_PAGE_TITLE ="Reports dashboard";
 	public final static String LOGIN_PAGE_DONTHAVEANACCOUNTTEXT= "Don't have an account?";
 	

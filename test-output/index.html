@@ -178,6 +178,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Hub Spot Regression Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.TestAllureListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.TesultsListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Hub Spot Functional Regression Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;&quot;/&gt;
     &lt;classes&gt;
@@ -233,24 +238,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyLoginPageTitleTest')
 data.setCell(0, 2, 'com.qa.hubspot.testcases.LoginPageTest')
-data.setCell(0, 3, 4964);
+data.setCell(0, 3, 4728);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'com.qa.hubspot.testcases.LoginPageTest')
-data.setCell(1, 3, 2624);
+data.setCell(1, 3, 3235);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySignUpLink')
+data.setCell(2, 1, 'verifyDontHaveAnAccountTextTest')
 data.setCell(2, 2, 'com.qa.hubspot.testcases.LoginPageTest')
-data.setCell(2, 3, 78);
+data.setCell(2, 3, 119);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyDontHaveAnAccountTextTest')
+data.setCell(3, 1, 'verifySignUpLink')
 data.setCell(3, 2, 'com.qa.hubspot.testcases.LoginPageTest')
-data.setCell(3, 3, 42);
+data.setCell(3, 3, 107);
 window.suiteTableData['Hub_Spot_Regression_Suite']= { tableData: data, tableDiv: 'times-div-Hub_Spot_Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Hub_Spot_Regression_Suite">
               </div> <!-- times-div-Hub_Spot_Regression_Suite -->
             </div> <!-- times-div -->
@@ -290,23 +295,23 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">4897 ms</span>
+                <span class="method-start">5005 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySignUpLink</span>
-                <span class="method-start">9868 ms</span>
+                <span class="method-start">9748 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDontHaveAnAccountTextTest</span>
-                <span class="method-start">9948 ms</span>
+                <span class="method-start">9860 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">9993 ms</span>
+                <span class="method-start">9986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12619 ms</span>
+                <span class="method-start">13226 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
